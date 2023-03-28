@@ -1,0 +1,46 @@
+.customer-search {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    border-bottom: 2px solid black;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  
+  .customer-search .search-input{
+    display: flex;
+    flex-direction: row;
+  }
+  .search-input *{
+    margin-right: 15px;
+    margin-top: 0px;
+    padding: 15px;
+    height: fit-content;
+    width: fit-content;
+  }
+  
+  .form-input{
+    display: flex;
+    flex-direction: row;
+    width: fit-content;
+    justify-content:space-around;
+    padding-top: 20px;
+  }
+  .form-input *{
+    margin-right: 30px;
+  }
+  .checkout-form{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+
+  }
+  .checkout-form *{
+    margin-left: 30px;
+    height: auto;
+    width: auto;
+    padding: 15px;
+    margin: 30px;
+  }
+  

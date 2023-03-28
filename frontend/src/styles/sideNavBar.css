@@ -1,0 +1,133 @@
+.sidenav {
+    background-color: #ffffff68;
+  /* background: linear-gradient(to bottom right, #4F8EF7, #4FC4F7); */
+    border-right: 1px solid #05010175;
+    
+    height: 100%;
+    /* padding-top: 20px; */
+    position: relative;
+    /* left: 0;
+    top: 0; */
+    /* width: 3000px; */
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+
+    left: 0;
+    /* overflow-x: hidden; */
+    top: 0px;
+    width: 230px;
+    /* z-index: 1; */
+    height: auto;
+
+}
+.nav-buttons{
+    margin-top: 55px;
+}
+
+
+a {
+    color: black;
+    /* color: #4F8EF7; */
+
+    display: block;
+    padding: 10px 20px;
+    text-decoration: none;
+    text-align: center;
+}
+
+/* a:hover {
+    background-color: #555;
+} */
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    display: block;
+    padding: 5px 20px;
+    /* background-color: #555; */
+
+}
+
+.sidenav-section {
+    margin-bottom: 20px;
+    margin-top: 20px;
+    margin-left: 5px;
+    margin-right: 20px;
+
+}
+
+
+
+.sidenav-section-header:hover {
+    background-color: #ffffffc3;
+
+}
+
+.sidenav-section-header {
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    /* background-color: #555; */
+    /* background-color: #ffffffdc; */
+    /* background-color: #ffffff65; */
+    border: 1px solid #05010175;
+    background-color: #fff;
+
+
+
+
+
+  }
+  
+  .sidenav-section-header span:first-child {
+    flex-grow: 1;
+    text-align: center;
+  }
+  
+  .sidenav-section-header .dropdown-icon {
+    font-size: 20px;
+    text-align: right;
+    /* background-color: #fff; */
+    /* color: #4F8EF7; */
+    color: black;
+
+
+  }
+
+    
+    .sidenav-sub-section {
+        /* background-color: #555556; */
+    /* background-color: #ffffff65; */
+    background-color: #fff;
+
+    /* border: 1px solid #05010175; */
+  margin: 2px;
+
+    /* background-color: #ffffff68; */
+
+
+        /* padding: 20px; */
+        margin-left: 10px;
+        /* border-radius: 14px; */
+        /* border-bottom-right-radius: 14px; */
+    }
+    .sidenav-sub-section :hover {
+        /* background-color: #0f0707; */
+    /* background-color: #ffffff68; */
+        background-color: #ffffffc3;
+    
+
+
+    }
+
+  

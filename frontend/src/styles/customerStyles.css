@@ -1,0 +1,90 @@
+.cust-header{
+  display: flex;
+  flex-direction: row;
+  align-items: center; /* center align items vertically */
+  text-align: right;
+  margin-top: 10px;
+
+
+}
+
+.cust-header span:first-child {
+    flex-grow: 1;
+    text-align: left;
+  }
+
+.cust-header .header-name {
+    font-size: 50px;
+    font-weight: 20px;
+  }
+
+.cust-header a {
+  text-decoration: none;
+  font-size: 20px;
+  /* border-bottom: 2px solid black; add underline */
+  margin-left: 20px; /* add some margin to the link */
+}
+
+.cust-header input[type='text'] {
+  /* border: none; */
+  border: 1px solid black; /* add underline */
+  margin-left: 20px; /* add some margin to the input */
+  width: 150px; /* adjust the width as per your requirement */
+}
+table {
+  border-collapse: collapse;
+  width: 100%;
+  margin-top: 40px;
+  width: 100%;
+
+}
+
+td input[type='text']{
+  /* border: 1px solid black; add underline */
+   /* add some margin to the input */
+  width:100%;
+  box-sizing: border-box;
+  height: 100%;
+
+}
+
+th, td {
+  padding: 10px;
+  text-align: center;
+  border: 1px solid #ddd;
+  width: auto;
+  height: auto;
+  
+}
+
+.pagination{
+  text-align: right;
+
+}
+
+.action-icons{
+  display: flex;
+  /* left: 20px; */
+  /* margin-left: 20px; */
+  /* margin-right: 20px; */
+  justify-content: space-evenly;
+  padding: 0px;
+}
+
+.edit-icon{
+  font-size: 30px;
+    
+    color: #4F8EF7;
+
+    cursor: pointer;
+  }
+  .delete-icon{
+  font-size: 30px;
+
+    cursor: pointer;
+    color: red;
+  }
+
+
+
+

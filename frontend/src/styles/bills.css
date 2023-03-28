@@ -1,0 +1,32 @@
+.search-filter {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  padding: 15px;
+  margin-top: 20px;
+  border: 2px solid black;
+}
+
+.search-filter .name {
+  margin-top: -40px;
+  padding: 10px;
+  text-align: left;
+  font-size: x-large;
+  background-color: white;
+  width: 130px;
+
+}
+
+.search-filter input {
+  margin: 10px;
+  padding: auto;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: calc(30% - 10px);
+  box-sizing: border-box;
+  height: 40px;
+}
+
+.search td{
+    border: 0px;
+}

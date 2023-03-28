@@ -1,0 +1,28 @@
+.home-container{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    min-height:calc(100vh - 60px) ;
+    height: auto;
+}
+.home{
+  background: linear-gradient(to bottom right, #4F8EF7, #4FC4F7);
+  border: 1px solid #05010175;
+  height: auto;
+
+}
+.content {
+    flex: 1;
+    /* height: 100%; */
+    padding: 20px;
+    margin: 20px;
+    /* background-color: #ffffffac; */
+    background-color: #fff;
+    /* overflow: hidden; */
+    
+    /* color:#4F8EF7; */
+    color: black;
+
+    /* background: #ffffff46 */
+    ;
+  }
